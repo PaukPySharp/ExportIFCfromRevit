@@ -35,3 +35,7 @@
 > - [Visual Studio Code](https://code.visualstudio.com/) (очень удобно)  
 > - или [Notepad++](https://notepad-plus-plus.org/)  
 > Это не обязательно, но сильно упростит настройку и редактирование скриптов.
+
+> **P.P.S.**  
+**Чтобы скачать проект к себе на компьютер сделайте следующее**
+![Repo](_git_images/download_repo.png)
