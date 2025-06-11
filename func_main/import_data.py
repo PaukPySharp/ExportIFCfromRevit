@@ -41,7 +41,7 @@ def search_rvt_files(workbook: openpyxl.Workbook) -> list[dict]:
     data_about_rvt_files = []
     for path_to_rvt, folder_mapping in path_project_mapping:
         # получаем все пути до файлов rvt из корня папки
-        all_files = [i for i in Path.cwd().joinpath(path_to_rvt).glob('*.rvt')
+        all_files = [i for i in Path(path_to_rvt).glob('*.rvt')
                      if list(map(str.lower, i.suffixes)) == ['.rvt']]
         # если файлы есть в папке, то добавляем данные о них в список
         if all_files:
@@ -119,7 +119,6 @@ def get_ifc_from_main_folder(data_about_rvt_files: list[dict]) -> dict:
     # словарь вида {путь до папки: список путей до ifc}
     all_files_ifc = {}
     for path in paths_to_main_folder:
-        all_files_ifc[path] = [
-            i for i in Path.cwd().joinpath(path).glob('*.ifc')]
+        all_files_ifc[path] = [i for i in Path(path).glob('*.ifc')]
 
     return all_files_ifc
