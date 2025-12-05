@@ -1,4 +1,4 @@
-# ExportIFCfromRevit — технический мануал (ExportIFC_manual.md)
+# ExportIFCfromRevit — технический мануал (ExportIFC_manual)
 
 ## 1. Вступление и аудитория
 
