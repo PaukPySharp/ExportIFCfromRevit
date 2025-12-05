@@ -87,7 +87,7 @@
 
 - Или через Git:
 ```bash
-git clone https://github.com/<user>/ExportIFCfromRevit.git
+git clone https://github.com/PaukPySharp/ExportIFCfromRevit.git
 ```
 
 ### 2. Установите зависимости Python
@@ -246,7 +246,6 @@ git clone https://github.com/<user>/ExportIFCfromRevit.git
 
 ---
 
-* * *
 ## Где это реально полезно (Use cases)
 
 ### Где инструмент особенно уместен
