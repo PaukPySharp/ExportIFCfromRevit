@@ -1,4 +1,4 @@
-# ExportIFCfromRevit
+# ExportIFCfromRevit version 2
 
   Автоматическая выгрузка IFC из Autodesk Revit через Python и pyRevit с управлением через Excel-конфиги.
 
@@ -61,12 +61,11 @@
 
 ## Требования и подготовка окружения
 
-Здесь — только кратко. Подробная пошаговая инструкция по установке и рекомендуемым версиям описана в  
-[ExportIFC_manual.md](_docs/ExportIFC_manual.md).
+Здесь — только кратко. Подробная пошаговая инструкция по установке и рекомендуемым версиям описана в [ExportIFC_manual](_docs/ExportIFC_manual.md).
 
 - **ОС:** Windows 10 / 11.
 - **Revit:** установлены все версии Revit, в которых будут открываться ваши модели.  
-  Особенности разных версий и рекомендации по выбору см. в [ExportIFC_manual.md](_docs/ExportIFC_manual.md).
+  Особенности разных версий и рекомендации по выбору см. в [ExportIFC_manual](_docs/ExportIFC_manual.md).
 - **Python:** CPython 3.12+ (для запуска `main.py`).
 - **pyRevit:** установленный pyRevit с подходящим engine (IronPython), привязанный к нужным версиям Revit.
 - **IFC Exporter:** отдельной установки не требуется — используется экспортёр, который идёт в составе установленного Revit. DLL `Autodesk.IFC.Export.UI.dll` берётся из Revit и должна лежать в `_settings/ApiIFCExporter`.
@@ -116,7 +115,7 @@ git clone https://github.com/<user>/ExportIFCfromRevit.git
 - другие служебные параметры (режим работы, имена листов Excel и т.п.).
 
 Подробное описание всех полей — в  
-[ExportIFC_manual.md](_docs/ExportIFC_manual.md).
+[ExportIFC_manual](_docs/ExportIFC_manual.md).
 
 ### 4. Подготовьте конфигурации IFC
 
@@ -138,9 +137,7 @@ git clone https://github.com/<user>/ExportIFCfromRevit.git
 - пути, куда складывать IFC (с маппингом и без),
 - ссылки на нужные IFC-конфиги (папки/имена настроек).
 
-Точное описание колонок и листов таблицы — в  
-[ExportIFC_manual.md](_docs/ExportIFC_manual.md).
-
+Точное описание колонок и листов таблицы — в [ExportIFC_manual](_docs/ExportIFC_manual.md).
 
 ### 6. Подключите нужный IronPython в pyRevit
 
@@ -255,7 +252,7 @@ git clone https://github.com/<user>/ExportIFCfromRevit.git
 
 Подробные инструкции вынесены в отдельные файлы:
 
-- [ExportIFC_manual.md](_docs/ExportIFC_manual.md) — **основная техническая инструкция** по настройке и эксплуатации.
+- [ExportIFC_manual](_docs/ExportIFC_manual.md) — **основная техническая инструкция** по настройке и эксплуатации.
 - `ExportIFC_manual_ru.docx` — та же структура, но в Word-формате, с возможностью добавить скриншоты.
 - [Описание структуры конфигов IFC](_examples/IFC_Export_Config_structure.md)  
   и `_examples/IFC_Export_Config_structure_notes_ru.docx` — подробности про структуру и логику конфигов IFC.
@@ -265,7 +262,7 @@ git clone https://github.com/<user>/ExportIFCfromRevit.git
 
 - [Run_schedule_example.md](_docs/Run_schedule_example.md) — пример информационного файла с графиком/описанием запуска ExportIFC (опциональная памятка, на работу пайплайна не влияет).
 
-Рекомендуется начинать с [ExportIFC_manual.md](_docs/ExportIFC_manual.md).
+Рекомендуется начинать с [ExportIFC_manual](_docs/ExportIFC_manual.md).
 
 ---
 
