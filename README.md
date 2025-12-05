@@ -3,7 +3,7 @@
   Автоматическая выгрузка IFC из Autodesk Revit через Python и pyRevit с управлением через Excel-конфиги.
 
 <p align="center">
-  <img src="_git_images/hero_logo_pipeline.png" alt="Revit → Python → IFC" width="360">
+  <img src="_git_images/hero_logo_pipeline.png" alt="Revit → Python → IFC" width="450">
 </p>
 
 > **ExportIFCfromRevit** (далее — **ExportIFC**) — это связка CPython-оркестратора и pyRevit-скрипта для массовой и автоматизированной выгрузки IFC-файлов из Revit-моделей.
@@ -100,8 +100,7 @@ git clone https://github.com/<user>/ExportIFCfromRevit.git
 
 - `_settings/bat/openpyxl_offline_install/install_openpyxl_zip.bat`.
 
-Подробности и альтернативы описаны в  
-[README по bat-скриптам](_settings/bat/README.md).
+Подробности и альтернативы описаны в [README по bat-скриптам](_settings/bat/README.md).
 
 ### 3. Настройте `_settings/settings.ini`
 
@@ -114,8 +113,7 @@ git clone https://github.com/<user>/ExportIFCfromRevit.git
 - `export_view3d_name` — имя 3D-вида, который используется для экспорта.
 - другие служебные параметры (режим работы, имена листов Excel и т.п.).
 
-Подробное описание всех полей — в  
-[ExportIFC_manual](_docs/ExportIFC_manual.md).
+Подробное описание всех полей — в [ExportIFC_manual](_docs/ExportIFC_manual.md).
 
 ### 4. Подготовьте конфигурации IFC
 
@@ -253,7 +251,7 @@ git clone https://github.com/<user>/ExportIFCfromRevit.git
 Подробные инструкции вынесены в отдельные файлы:
 
 - [ExportIFC_manual](_docs/ExportIFC_manual.md) — **основная техническая инструкция** по настройке и эксплуатации.
-- `ExportIFC_manual_ru.docx` — та же структура, но в Word-формате, с возможностью добавить скриншоты.
+- `_docs/ExportIFC_manual_ru.docx` — та же структура, но в Word-формате, с возможностью добавить скриншоты.
 - [Описание структуры конфигов IFC](_examples/IFC_Export_Config_structure.md)  
   и `_examples/IFC_Export_Config_structure_notes_ru.docx` — подробности про структуру и логику конфигов IFC.
 - [README по настройке окружения и bat-скриптов](_settings/README.md) — обзор папки `_settings`, батников запуска/установки и ссылки на вспомогательные README.
